@@ -87,14 +87,14 @@ with open('komik_data.csv', 'w', newline='', encoding='utf-8') as file:
         'Title', 
         'Chapter', 
         'Berwarna', 
-        'Link Gambar', 
-        'Link Komik',
+        'Rating', 
         'Status',
         'Type',
         'Released',
         'Author',
         'Description',
-        'Rating'
+        'link_gambar',
+        'link_komik'
     ])
     writer.writerows(all_data)
 
